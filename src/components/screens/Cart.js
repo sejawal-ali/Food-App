@@ -37,7 +37,7 @@ const Cart = () => {
             paddingHorizontal: 10
           }}>
             <View style={{ backgroundColor: '#F0EDF8', width: '35%', justifyContent: 'center', alignItems: 'center', borderRadius: 30 }}>
-              <Image style={{ width: 90, height: 90, }} source={require('../../components/assets/images/welcome.png')} />
+              <Image style={{ width: 90, height: 90, borderRadius: 45 }} source={{uri: item.image}} />
             </View>
 
             <View style={{ paddingHorizontal: 15, paddingVertical: 16, flex: 1, justifyContent: 'space-between' }}>
